@@ -2,13 +2,14 @@
 
 To get this thing to bootstrap, I had to:
  1. pull this repo
- 2. run `nvm use 16`
- 3. run `npm i`
- 4. run `brew install jq`
- 5. run `npm install -g aws-cdk`
- 6. run `export APP_CONFIG=config/app-config-demo.json`
- 7. run `sh scripts/setup_initial.sh config/app-config-demo.json` which fails
- 8. then run `cdk bootstrap aws://290444451957/us-east-1`
+ 2. login to Robin AWS using cli with MFA
+ 3. run `nvm use 16`
+ 4. run `npm i`
+ 5. run `brew install jq`
+ 6. run `npm install -g aws-cdk`
+ 7. run `export APP_CONFIG=config/app-config-demo.json`
+ 8. run `sh scripts/setup_initial.sh config/app-config-demo.json` which fails
+ 9. then run `cdk bootstrap aws://290444451957/us-east-1`
 
 # AWS ECS DevOps using AWS CDK
 
