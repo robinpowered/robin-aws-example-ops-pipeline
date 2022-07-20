@@ -11,7 +11,7 @@ To get this thing to bootstrap, I had to:
  8. run `sh scripts/setup_initial.sh config/app-config-demo.json` which fails
  9. then run `cdk bootstrap aws://290444451957/us-east-1`
  
- When complete, you should see this:
+ When complete, you should see this:</br>
  ![Screen Shot 2022-07-20 at 2 02 31 PM](https://user-images.githubusercontent.com/20734238/180051383-a91da633-6956-46de-a478-f0e44ba8c461.png)
 
 
