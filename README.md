@@ -1,3 +1,20 @@
+# Setup for Robin
+
+To get this thing to bootstrap, I had to:
+ 1. pull this repo
+ 2. login to Robin AWS using cli with MFA
+ 3. run `nvm use 16`
+ 4. run `npm i`
+ 5. run `brew install jq`
+ 6. run `npm install -g aws-cdk`
+ 7. run `export APP_CONFIG=config/app-config-demo.json`
+ 8. run `sh scripts/setup_initial.sh config/app-config-demo.json` which fails
+ 9. then run `cdk bootstrap aws://290444451957/us-east-1`
+ 
+ When complete, you should see this:</br>
+ ![Screen Shot 2022-07-20 at 2 02 31 PM](https://user-images.githubusercontent.com/20734238/180051383-a91da633-6956-46de-a478-f0e44ba8c461.png)
+
+
 # AWS ECS DevOps using AWS CDK
 
 This repository provides DevOps practices necessary to develop applications based on Amazon Elastic Container Service(ECS) container. Various AWS services are used to support DevOps best practices such as MSA, IaC, CICD, Monitoring and Configuration Management. All necessary cloud resources are modeled and deployed through AWS Cloud Development Kit(CDK). Because AWS CDK abstracts AWS cloud resources as much as possible, we can use it to accelerate DevOps.
