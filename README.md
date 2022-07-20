@@ -10,6 +10,10 @@ To get this thing to bootstrap, I had to:
  7. run `export APP_CONFIG=config/app-config-demo.json`
  8. run `sh scripts/setup_initial.sh config/app-config-demo.json` which fails
  9. then run `cdk bootstrap aws://290444451957/us-east-1`
+ 
+ When complete, you should see this:
+ ![Screen Shot 2022-07-20 at 2 02 31 PM](https://user-images.githubusercontent.com/20734238/180051383-a91da633-6956-46de-a478-f0e44ba8c461.png)
+
 
 # AWS ECS DevOps using AWS CDK
 
