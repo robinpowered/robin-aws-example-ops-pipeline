@@ -11,9 +11,9 @@
         "VpcInfra": {
             "Name": "VpcInfraStack",
 
-            "VPCName": "CommonVPC",
+            "VPCName": "Robin - Staging",
             "VPCMaxAzs": 3,
-            "VPCCIDR": "10.0.0.0/16",
+            "VPCCIDR": "10.2.0.0/16",
             "NATGatewayCount": 1,
 
             "ECSClusterName": "MainCluster"
